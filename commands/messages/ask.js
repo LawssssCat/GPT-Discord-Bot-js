@@ -5,7 +5,7 @@ const fs = require('node:fs');
 const func = require('../../utils/functions');
 const tokenizer = require('../../utils/encoder/encoder');
 const settings = require('../../utils/settings');
-const config = require('../../configs/config.json');
+const config = require('../../configs/configs');
 
 module.exports = {
     name: "Ask",

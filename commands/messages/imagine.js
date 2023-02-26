@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const openAI = require('openai');
 const chalk = require('chalk');
 const func = require('../../utils/functions');
-const config = require('../../configs/config.json');
+const config = require('../../configs/configs');
 
 module.exports = {
     name: "Imagine",

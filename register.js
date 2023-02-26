@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const chalk = require('chalk');
 const fs = require('node:fs');
-const config = require('./configs/config.json');
+const config = require('./configs/configs');
 const commands = [];
 
 const commandFiles = fs.readdirSync(`./commands/interactions/`).filter(file => file.endsWith('.js'));

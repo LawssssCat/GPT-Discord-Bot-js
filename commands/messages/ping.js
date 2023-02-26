@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const os = require('node:os');
 const func = require('../../utils/functions');
-const config = require('../../configs/config.json');
+const config = require('../../configs/configs');
 
 module.exports = {
     name: "Ping",
